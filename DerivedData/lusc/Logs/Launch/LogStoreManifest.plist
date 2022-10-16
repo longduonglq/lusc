@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>033770C7-D36C-4D1E-9B79-47CDF7811D73</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>F02C0812-86C2-4228-8B06-68CAA5EE742D</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-lusc-2022.09.14_17-58-16--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>lusc project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>lusc</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run lusc</string>
+			<key>timeStartedRecording</key>
+			<real>684896296.30098903</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run lusc</string>
+			<key>uniqueIdentifier</key>
+			<string>033770C7-D36C-4D1E-9B79-47CDF7811D73</string>
+		</dict>
+		<key>473355EC-284E-462D-B069-78CE3EF96A97</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>34CA5980-51FC-4F3A-860D-7E1C6C2DB809</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-lusc-2022.09.14_17-57-48--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>lusc project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>lusc</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run lusc</string>
+			<key>timeStartedRecording</key>
+			<real>684896268.65956604</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run lusc</string>
+			<key>uniqueIdentifier</key>
+			<string>473355EC-284E-462D-B069-78CE3EF96A97</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

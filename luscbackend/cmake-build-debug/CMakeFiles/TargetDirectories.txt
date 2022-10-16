@@ -1,0 +1,3 @@
+/Users/mqp/Desktop/lusc/luscbackend/cmake-build-debug/CMakeFiles/luscbackend.dir
+/Users/mqp/Desktop/lusc/luscbackend/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mqp/Desktop/lusc/luscbackend/cmake-build-debug/CMakeFiles/rebuild_cache.dir

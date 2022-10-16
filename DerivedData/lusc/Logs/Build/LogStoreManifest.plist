@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>34CA5980-51FC-4F3A-860D-7E1C6C2DB809</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>34CA5980-51FC-4F3A-860D-7E1C6C2DB809.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>lusc project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>lusc</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build lusc</string>
+			<key>timeStartedRecording</key>
+			<real>684896268.66007805</real>
+			<key>timeStoppedRecording</key>
+			<real>684896280.35817802</real>
+			<key>title</key>
+			<string>Build lusc</string>
+			<key>uniqueIdentifier</key>
+			<string>34CA5980-51FC-4F3A-860D-7E1C6C2DB809</string>
+		</dict>
+		<key>DEC5C951-E228-4F93-8E3A-C83633AD34ED</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DEC5C951-E228-4F93-8E3A-C83633AD34ED.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>lusc project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>lusc</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build lusc</string>
+			<key>timeStartedRecording</key>
+			<real>677617502.68214703</real>
+			<key>timeStoppedRecording</key>
+			<real>677617506.82766104</real>
+			<key>title</key>
+			<string>Build lusc</string>
+			<key>uniqueIdentifier</key>
+			<string>DEC5C951-E228-4F93-8E3A-C83633AD34ED</string>
+		</dict>
+		<key>F02C0812-86C2-4228-8B06-68CAA5EE742D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F02C0812-86C2-4228-8B06-68CAA5EE742D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>lusc project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>lusc</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build lusc</string>
+			<key>timeStartedRecording</key>
+			<real>684896296.30110705</real>
+			<key>timeStoppedRecording</key>
+			<real>684896298.71721697</real>
+			<key>title</key>
+			<string>Build lusc</string>
+			<key>uniqueIdentifier</key>
+			<string>F02C0812-86C2-4228-8B06-68CAA5EE742D</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

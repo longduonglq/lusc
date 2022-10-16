@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "67e9f1a9259342817b08464340f44e67bd4cbc466bedb466a74ace504a21c36f"
+build_start_time: [1663203477, 37156105]
+build_end_time: [1663203480, 312942028]
+inputs:
+  "/Users/mqp/Desktop/lusc/lusc/main.swift": [1655924052, 892630577]

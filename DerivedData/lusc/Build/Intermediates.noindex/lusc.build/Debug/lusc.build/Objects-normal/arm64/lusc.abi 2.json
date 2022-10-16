@@ -1,0 +1,1369 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "lusc",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "EventKit",
+      "printedName": "EventKit",
+      "declKind": "Import",
+      "moduleName": "lusc"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "clsDTCalendar",
+      "printedName": "clsDTCalendar",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "_value",
+          "printedName": "_value",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Calendar",
+              "printedName": "Foundation.Calendar",
+              "usr": "s:10Foundation8CalendarV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:4lusc13clsDTCalendarC6_value10Foundation8CalendarVvp",
+          "mangledName": "$s4lusc13clsDTCalendarC6_value10Foundation8CalendarVvp",
+          "moduleName": "lusc",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Calendar",
+                  "printedName": "Foundation.Calendar",
+                  "usr": "s:10Foundation8CalendarV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4lusc13clsDTCalendarC6_value10Foundation8CalendarVvg",
+              "mangledName": "$s4lusc13clsDTCalendarC6_value10Foundation8CalendarVvg",
+              "moduleName": "lusc",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Calendar",
+                  "printedName": "Foundation.Calendar",
+                  "usr": "s:10Foundation8CalendarV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4lusc13clsDTCalendarC6_value10Foundation8CalendarVvs",
+              "mangledName": "$s4lusc13clsDTCalendarC6_value10Foundation8CalendarVvs",
+              "moduleName": "lusc",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4lusc13clsDTCalendarC6_value10Foundation8CalendarVvM",
+              "mangledName": "$s4lusc13clsDTCalendarC6_value10Foundation8CalendarVvM",
+              "moduleName": "lusc",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "clsDTCalendar",
+              "printedName": "lusc.clsDTCalendar",
+              "usr": "s:4lusc13clsDTCalendarC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:4lusc13clsDTCalendarCACycfc",
+          "mangledName": "$s4lusc13clsDTCalendarCACycfc",
+          "moduleName": "lusc",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "component",
+          "printedName": "component(component:from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Component",
+              "printedName": "Foundation.Calendar.Component",
+              "usr": "s:10Foundation8CalendarV9ComponentO"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Date",
+              "printedName": "Foundation.Date",
+              "usr": "s:10Foundation4DateV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:4lusc13clsDTCalendarC9componentAD4fromSi10Foundation8CalendarV9ComponentO_AF4DateVtF",
+          "mangledName": "$s4lusc13clsDTCalendarC9componentAD4fromSi10Foundation8CalendarV9ComponentO_AF4DateVtF",
+          "moduleName": "lusc",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "dateComponents",
+          "printedName": "dateComponents(components:from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DateComponents",
+              "printedName": "Foundation.DateComponents",
+              "usr": "s:10Foundation14DateComponentsV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Set",
+              "printedName": "Swift.Set<Foundation.Calendar.Component>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Component",
+                  "printedName": "Foundation.Calendar.Component",
+                  "usr": "s:10Foundation8CalendarV9ComponentO"
+                }
+              ],
+              "usr": "s:Sh"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Date",
+              "printedName": "Foundation.Date",
+              "usr": "s:10Foundation4DateV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:4lusc13clsDTCalendarC14dateComponents10components4from10Foundation04DateE0VShyAG8CalendarV9ComponentOG_AG0I0VtF",
+          "mangledName": "$s4lusc13clsDTCalendarC14dateComponents10components4from10Foundation04DateE0VShyAG8CalendarV9ComponentOG_AG0I0VtF",
+          "moduleName": "lusc",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "dateComponents",
+          "printedName": "dateComponents(components:from:to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DateComponents",
+              "printedName": "Foundation.DateComponents",
+              "usr": "s:10Foundation14DateComponentsV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Set",
+              "printedName": "Swift.Set<Foundation.Calendar.Component>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Component",
+                  "printedName": "Foundation.Calendar.Component",
+                  "usr": "s:10Foundation8CalendarV9ComponentO"
+                }
+              ],
+              "usr": "s:Sh"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Date",
+              "printedName": "Foundation.Date",
+              "usr": "s:10Foundation4DateV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Date",
+              "printedName": "Foundation.Date",
+              "usr": "s:10Foundation4DateV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:4lusc13clsDTCalendarC14dateComponents10components4from2to10Foundation04DateE0VShyAH8CalendarV9ComponentOG_AH0J0VAQtF",
+          "mangledName": "$s4lusc13clsDTCalendarC14dateComponents10components4from2to10Foundation04DateE0VShyAH8CalendarV9ComponentOG_AH0J0VAQtF",
+          "moduleName": "lusc",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "timeZoneIdentifier",
+          "printedName": "timeZoneIdentifier()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:4lusc13clsDTCalendarC18timeZoneIdentifierSSyF",
+          "mangledName": "$s4lusc13clsDTCalendarC18timeZoneIdentifierSSyF",
+          "moduleName": "lusc",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "secondsFromGMT",
+          "printedName": "secondsFromGMT()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:4lusc13clsDTCalendarC14secondsFromGMTSiyF",
+          "mangledName": "$s4lusc13clsDTCalendarC14secondsFromGMTSiyF",
+          "moduleName": "lusc",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "startOfDay",
+          "printedName": "startOfDay(for:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "clsDate",
+              "printedName": "lusc.clsDate",
+              "usr": "s:4lusc7clsDateC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "clsDate",
+              "printedName": "lusc.clsDate",
+              "usr": "s:4lusc7clsDateC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:4lusc13clsDTCalendarC10startOfDay3forAA0B4DateCAG_tF",
+          "mangledName": "$s4lusc13clsDTCalendarC10startOfDay3forAA0B4DateCAG_tF",
+          "moduleName": "lusc",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "enumerateDates",
+          "printedName": "enumerateDates(startingAfter:matching:matchingPolicy:repeatedTimePolicy:direction:using:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "clsDate",
+              "printedName": "lusc.clsDate",
+              "usr": "s:4lusc7clsDateC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "DateComponents",
+              "printedName": "Foundation.DateComponents",
+              "usr": "s:10Foundation14DateComponentsV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "MatchingPolicy",
+              "printedName": "Foundation.Calendar.MatchingPolicy",
+              "usr": "s:10Foundation8CalendarV14MatchingPolicyO"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "RepeatedTimePolicy",
+              "printedName": "Foundation.Calendar.RepeatedTimePolicy",
+              "usr": "s:10Foundation8CalendarV18RepeatedTimePolicyO"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "SearchDirection",
+              "printedName": "Foundation.Calendar.SearchDirection",
+              "usr": "s:10Foundation8CalendarV15SearchDirectionO"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Foundation.Date?, Swift.Bool, inout Swift.Bool) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tuple",
+                  "printedName": "(Foundation.Date?, Swift.Bool, inout Swift.Bool)",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "Foundation.Date?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Date",
+                          "printedName": "Foundation.Date",
+                          "usr": "s:10Foundation4DateV"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "InOut",
+                      "printedName": "inout Swift.Bool"
+                    }
+                  ]
+                }
+              ],
+              "typeAttributes": [
+                "noescape"
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:4lusc13clsDTCalendarC14enumerateDates13startingAfter8matching0H6Policy012repeatedTimeI09direction5usingyAA0B4DateC_10Foundation0N10ComponentsVAM8CalendarV08MatchingI0OAQ08RepeatedkI0OAQ15SearchDirectionOyAM0N0VSg_S2bztXEtF",
+          "mangledName": "$s4lusc13clsDTCalendarC14enumerateDates13startingAfter8matching0H6Policy012repeatedTimeI09direction5usingyAA0B4DateC_10Foundation0N10ComponentsVAM8CalendarV08MatchingI0OAQ08RepeatedkI0OAQ15SearchDirectionOyAM0N0VSg_S2bztXEtF",
+          "moduleName": "lusc",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "nextDate",
+          "printedName": "nextDate(after:matching:matchingPolicy:repeatedTimePolicy:direction:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Date?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Date",
+                  "printedName": "Foundation.Date",
+                  "usr": "s:10Foundation4DateV"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Date",
+              "printedName": "Foundation.Date",
+              "usr": "s:10Foundation4DateV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "DateComponents",
+              "printedName": "Foundation.DateComponents",
+              "usr": "s:10Foundation14DateComponentsV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "MatchingPolicy",
+              "printedName": "Foundation.Calendar.MatchingPolicy",
+              "usr": "s:10Foundation8CalendarV14MatchingPolicyO"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "RepeatedTimePolicy",
+              "printedName": "Foundation.Calendar.RepeatedTimePolicy",
+              "usr": "s:10Foundation8CalendarV18RepeatedTimePolicyO"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "SearchDirection",
+              "printedName": "Foundation.Calendar.SearchDirection",
+              "usr": "s:10Foundation8CalendarV15SearchDirectionO"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:4lusc13clsDTCalendarC8nextDate5after8matching0G6Policy012repeatedTimeH09direction10Foundation0E0VSgAL_AJ0E10ComponentsVAJ8CalendarV08MatchingH0OAQ08RepeatedjH0OAQ15SearchDirectionOtF",
+          "mangledName": "$s4lusc13clsDTCalendarC8nextDate5after8matching0G6Policy012repeatedTimeH09direction10Foundation0E0VSgAL_AJ0E10ComponentsVAJ8CalendarV08MatchingH0OAQ08RepeatedjH0OAQ15SearchDirectionOtF",
+          "moduleName": "lusc",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "date",
+          "printedName": "date(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Date?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Date",
+                  "printedName": "Foundation.Date",
+                  "usr": "s:10Foundation4DateV"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "DateComponents",
+              "printedName": "Foundation.DateComponents",
+              "usr": "s:10Foundation14DateComponentsV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:4lusc13clsDTCalendarC4date4from10Foundation4DateVSgAF0G10ComponentsV_tF",
+          "mangledName": "$s4lusc13clsDTCalendarC4date4from10Foundation4DateVSgAF0G10ComponentsV_tF",
+          "moduleName": "lusc",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "copy",
+          "printedName": "copy(with:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ProtocolComposition",
+              "printedName": "Any"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "ObjectiveC.NSZone?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSZone",
+                  "printedName": "ObjectiveC.NSZone",
+                  "usr": "s:10ObjectiveC6NSZoneV"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:4lusc13clsDTCalendarC4copy4withyp10ObjectiveC6NSZoneVSg_tF",
+          "mangledName": "$s4lusc13clsDTCalendarC4copy4withyp10ObjectiveC6NSZoneVSg_tF",
+          "moduleName": "lusc",
+          "isOpen": true,
+          "objc_name": "copyWithZone:",
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:4lusc13clsDTCalendarC",
+      "mangledName": "$s4lusc13clsDTCalendarC",
+      "moduleName": "lusc",
+      "isOpen": true
+    },
+    {
+      "kind": "Var",
+      "name": "dtcal_cls",
+      "printedName": "dtcal_cls",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "CDTCalendarClass",
+          "printedName": "__ObjC.CDTCalendarClass",
+          "usr": "c:@S@CDTCalendarClass"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:4lusc9dtcal_clsSo16CDTCalendarClassVvp",
+      "mangledName": "$s4lusc9dtcal_clsSo16CDTCalendarClassVvp",
+      "moduleName": "lusc",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "hasStorage": true
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "clsDate",
+      "printedName": "clsDate",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "_value",
+          "printedName": "_value",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Date",
+              "printedName": "Foundation.Date",
+              "usr": "s:10Foundation4DateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:4lusc7clsDateC6_value10Foundation0C0Vvp",
+          "mangledName": "$s4lusc7clsDateC6_value10Foundation0C0Vvp",
+          "moduleName": "lusc",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Date",
+                  "printedName": "Foundation.Date",
+                  "usr": "s:10Foundation4DateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4lusc7clsDateC6_value10Foundation0C0Vvg",
+              "mangledName": "$s4lusc7clsDateC6_value10Foundation0C0Vvg",
+              "moduleName": "lusc",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Date",
+                  "printedName": "Foundation.Date",
+                  "usr": "s:10Foundation4DateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4lusc7clsDateC6_value10Foundation0C0Vvs",
+              "mangledName": "$s4lusc7clsDateC6_value10Foundation0C0Vvs",
+              "moduleName": "lusc",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4lusc7clsDateC6_value10Foundation0C0VvM",
+              "mangledName": "$s4lusc7clsDateC6_value10Foundation0C0VvM",
+              "moduleName": "lusc",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "clsDate",
+              "printedName": "lusc.clsDate",
+              "usr": "s:4lusc7clsDateC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:4lusc7clsDateCACycfc",
+          "mangledName": "$s4lusc7clsDateCACycfc",
+          "moduleName": "lusc",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(_value:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "clsDate",
+              "printedName": "lusc.clsDate",
+              "usr": "s:4lusc7clsDateC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Date",
+              "printedName": "Foundation.Date",
+              "usr": "s:10Foundation4DateV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:4lusc7clsDateC6_valueAC10Foundation0C0V_tcfc",
+          "mangledName": "$s4lusc7clsDateC6_valueAC10Foundation0C0V_tcfc",
+          "moduleName": "lusc",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(timeIntervalSinceNow:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "clsDate",
+              "printedName": "lusc.clsDate",
+              "usr": "s:4lusc7clsDateC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:4lusc7clsDateC20timeIntervalSinceNowACSd_tcfc",
+          "mangledName": "$s4lusc7clsDateC20timeIntervalSinceNowACSd_tcfc",
+          "moduleName": "lusc",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(timeInterval:since:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "clsDate",
+              "printedName": "lusc.clsDate",
+              "usr": "s:4lusc7clsDateC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "clsDate",
+              "printedName": "lusc.clsDate",
+              "usr": "s:4lusc7clsDateC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:4lusc7clsDateC12timeInterval5sinceACSd_ACtcfc",
+          "mangledName": "$s4lusc7clsDateC12timeInterval5sinceACSd_ACtcfc",
+          "moduleName": "lusc",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(timeIntervalSinceReferenceDate:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "clsDate",
+              "printedName": "lusc.clsDate",
+              "usr": "s:4lusc7clsDateC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:4lusc7clsDateC026timeIntervalSinceReferenceC0ACSd_tcfc",
+          "mangledName": "$s4lusc7clsDateC026timeIntervalSinceReferenceC0ACSd_tcfc",
+          "moduleName": "lusc",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(timeIntervalSince1970:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "clsDate",
+              "printedName": "lusc.clsDate",
+              "usr": "s:4lusc7clsDateC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:4lusc7clsDateC21timeIntervalSince1970ACSd_tcfc",
+          "mangledName": "$s4lusc7clsDateC21timeIntervalSince1970ACSd_tcfc",
+          "moduleName": "lusc",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Var",
+          "name": "now",
+          "printedName": "now",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "clsDate",
+              "printedName": "lusc.clsDate",
+              "usr": "s:4lusc7clsDateC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:4lusc7clsDateC3nowACvpZ",
+          "mangledName": "$s4lusc7clsDateC3nowACvpZ",
+          "moduleName": "lusc",
+          "static": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "clsDate",
+                  "printedName": "lusc.clsDate",
+                  "usr": "s:4lusc7clsDateC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4lusc7clsDateC3nowACvgZ",
+              "mangledName": "$s4lusc7clsDateC3nowACvgZ",
+              "moduleName": "lusc",
+              "static": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "distantFuture",
+          "printedName": "distantFuture",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "clsDate",
+              "printedName": "lusc.clsDate",
+              "usr": "s:4lusc7clsDateC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:4lusc7clsDateC13distantFutureACvpZ",
+          "mangledName": "$s4lusc7clsDateC13distantFutureACvpZ",
+          "moduleName": "lusc",
+          "static": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "clsDate",
+                  "printedName": "lusc.clsDate",
+                  "usr": "s:4lusc7clsDateC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4lusc7clsDateC13distantFutureACvgZ",
+              "mangledName": "$s4lusc7clsDateC13distantFutureACvgZ",
+              "moduleName": "lusc",
+              "static": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "distantPast",
+          "printedName": "distantPast",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "clsDate",
+              "printedName": "lusc.clsDate",
+              "usr": "s:4lusc7clsDateC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:4lusc7clsDateC11distantPastACvpZ",
+          "mangledName": "$s4lusc7clsDateC11distantPastACvpZ",
+          "moduleName": "lusc",
+          "static": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "clsDate",
+                  "printedName": "lusc.clsDate",
+                  "usr": "s:4lusc7clsDateC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4lusc7clsDateC11distantPastACvgZ",
+              "mangledName": "$s4lusc7clsDateC11distantPastACvgZ",
+              "moduleName": "lusc",
+              "static": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "compare",
+          "printedName": "compare(date:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ComparisonResult",
+              "printedName": "Foundation.ComparisonResult",
+              "usr": "c:@E@NSComparisonResult"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "clsDate",
+              "printedName": "lusc.clsDate",
+              "usr": "s:4lusc7clsDateC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:4lusc7clsDateC7compare4dateSo18NSComparisonResultVAC_tF",
+          "mangledName": "$s4lusc7clsDateC7compare4dateSo18NSComparisonResultVAC_tF",
+          "moduleName": "lusc",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "distance",
+          "printedName": "distance(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "clsDate",
+              "printedName": "lusc.clsDate",
+              "usr": "s:4lusc7clsDateC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:4lusc7clsDateC8distance2toSdAC_tF",
+          "mangledName": "$s4lusc7clsDateC8distance2toSdAC_tF",
+          "moduleName": "lusc",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "timeIntervalSince",
+          "printedName": "timeIntervalSince(date:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "clsDate",
+              "printedName": "lusc.clsDate",
+              "usr": "s:4lusc7clsDateC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:4lusc7clsDateC17timeIntervalSince4dateSdAC_tF",
+          "mangledName": "$s4lusc7clsDateC17timeIntervalSince4dateSdAC_tF",
+          "moduleName": "lusc",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "timeIntervalSinceNow",
+          "printedName": "timeIntervalSinceNow",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:4lusc7clsDateC20timeIntervalSinceNowSdvp",
+          "mangledName": "$s4lusc7clsDateC20timeIntervalSinceNowSdvp",
+          "moduleName": "lusc",
+          "isOpen": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4lusc7clsDateC20timeIntervalSinceNowSdvg",
+              "mangledName": "$s4lusc7clsDateC20timeIntervalSinceNowSdvg",
+              "moduleName": "lusc",
+              "isOpen": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "timeIntervalSinceReferenceDate",
+          "printedName": "timeIntervalSinceReferenceDate",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:4lusc7clsDateC026timeIntervalSinceReferenceC0Sdvp",
+          "mangledName": "$s4lusc7clsDateC026timeIntervalSinceReferenceC0Sdvp",
+          "moduleName": "lusc",
+          "isOpen": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4lusc7clsDateC026timeIntervalSinceReferenceC0Sdvg",
+              "mangledName": "$s4lusc7clsDateC026timeIntervalSinceReferenceC0Sdvg",
+              "moduleName": "lusc",
+              "isOpen": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "timeIntervalSince1970",
+          "printedName": "timeIntervalSince1970",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:4lusc7clsDateC21timeIntervalSince1970Sdvp",
+          "mangledName": "$s4lusc7clsDateC21timeIntervalSince1970Sdvp",
+          "moduleName": "lusc",
+          "isOpen": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4lusc7clsDateC21timeIntervalSince1970Sdvg",
+              "mangledName": "$s4lusc7clsDateC21timeIntervalSince1970Sdvg",
+              "moduleName": "lusc",
+              "isOpen": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "timeIntervalSinceReferenceDate",
+          "printedName": "timeIntervalSinceReferenceDate",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:4lusc7clsDateC026timeIntervalSinceReferenceC0SdvpZ",
+          "mangledName": "$s4lusc7clsDateC026timeIntervalSinceReferenceC0SdvpZ",
+          "moduleName": "lusc",
+          "static": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4lusc7clsDateC026timeIntervalSinceReferenceC0SdvgZ",
+              "mangledName": "$s4lusc7clsDateC026timeIntervalSinceReferenceC0SdvgZ",
+              "moduleName": "lusc",
+              "static": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "formatted",
+          "printedName": "formatted()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:4lusc7clsDateC9formattedSSyF",
+          "mangledName": "$s4lusc7clsDateC9formattedSSyF",
+          "moduleName": "lusc",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "copy",
+          "printedName": "copy(with:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ProtocolComposition",
+              "printedName": "Any"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "ObjectiveC.NSZone?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSZone",
+                  "printedName": "ObjectiveC.NSZone",
+                  "usr": "s:10ObjectiveC6NSZoneV"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:4lusc7clsDateC4copy4withyp10ObjectiveC6NSZoneVSg_tF",
+          "mangledName": "$s4lusc7clsDateC4copy4withyp10ObjectiveC6NSZoneVSg_tF",
+          "moduleName": "lusc",
+          "isOpen": true,
+          "objc_name": "copyWithZone:",
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:4lusc7clsDateC",
+      "mangledName": "$s4lusc7clsDateC",
+      "moduleName": "lusc",
+      "isOpen": true
+    },
+    {
+      "kind": "Var",
+      "name": "dt_cls",
+      "printedName": "dt_cls",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "CDateClass",
+          "printedName": "__ObjC.CDateClass",
+          "usr": "c:@S@CDateClass"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:4lusc6dt_clsSo10CDateClassVvp",
+      "mangledName": "$s4lusc6dt_clsSo10CDateClassVvp",
+      "moduleName": "lusc",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "hasStorage": true
+    },
+    {
+      "kind": "Var",
+      "name": "ev_cls",
+      "printedName": "ev_cls",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "CEventClass",
+          "printedName": "__ObjC.CEventClass",
+          "usr": "c:@S@CEventClass"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:4lusc6ev_clsSo11CEventClassVvp",
+      "mangledName": "$s4lusc6ev_clsSo11CEventClassVvp",
+      "moduleName": "lusc",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "hasStorage": true
+    },
+    {
+      "kind": "Var",
+      "name": "es_cls",
+      "printedName": "es_cls",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "CEventStoreClass",
+          "printedName": "__ObjC.CEventStoreClass",
+          "usr": "c:@S@CEventStoreClass"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:4lusc6es_clsSo16CEventStoreClassVvp",
+      "mangledName": "$s4lusc6es_clsSo16CEventStoreClassVvp",
+      "moduleName": "lusc",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "hasStorage": true
+    },
+    {
+      "kind": "Var",
+      "name": "eksrc_cls",
+      "printedName": "eksrc_cls",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "CEKSourceClass",
+          "printedName": "__ObjC.CEKSourceClass",
+          "usr": "c:@S@CEKSourceClass"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:4lusc9eksrc_clsSo14CEKSourceClassVvp",
+      "mangledName": "$s4lusc9eksrc_clsSo14CEKSourceClassVvp",
+      "moduleName": "lusc",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "isLet": true,
+      "hasStorage": true
+    },
+    {
+      "kind": "Var",
+      "name": "cal_cls",
+      "printedName": "cal_cls",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "CCalendarClass",
+          "printedName": "__ObjC.CCalendarClass",
+          "usr": "c:@S@CCalendarClass"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:4lusc7cal_clsSo14CCalendarClassVvp",
+      "mangledName": "$s4lusc7cal_clsSo14CCalendarClassVvp",
+      "moduleName": "lusc",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "isLet": true,
+      "hasStorage": true
+    }
+  ],
+  "json_format_version": 6
+}
