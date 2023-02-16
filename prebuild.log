@@ -1,8 +1,0 @@
-Starting build scripts
-Going into directory /Users/mqp/Desktop/lusc/luscbackend
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/mqp/Desktop/lusc/luscbackend/build
-Consolidate compiler generated dependencies of target luscbackend
-[ 20%] Linking CXX static library libluscbackend.a
-[100%] Built target luscbackend

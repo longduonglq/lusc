@@ -1,3 +1,0 @@
-Target dependency graph (2 targets)
-lusc in lusc, no dependencies
-lusctest in lusc, no dependencies

@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
-options: "f83ea5e8c960ca0fd2e6307d0bf97112ec7b065bbb4b7f75773e00db10a024b8"
-build_start_time: [1655413088, 92190980]
-build_end_time: [1655413088, 664266109]
-inputs:
-  "/Users/mqp/Desktop/lusc/lusc/main.swift": [1655368786, 954986572]
